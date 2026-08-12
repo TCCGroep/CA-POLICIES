@@ -491,7 +491,7 @@ Learn more: https://learn.microsoft.com/en-us/entra/identity/conditional-access/
 
 
 > [!Note]
-> Please keep in mind that this is a web app. The tool is intended as a simple, one-time deployment method. After deploying the baseline, consider removing the Enterprise App from your tenant. If you prefer an offline deployment method, which is more time-consuming, choose option 2 instead.
+> The tool is intended as a simple, one-time deployment method. After deploying the baseline, consider removing the Enterprise App from your tenant. If you prefer an offline deployment method choose option 2 instead. Please keep in mind that this is a web app and use it on your own risk. 
 
 * **Step 1**: Open the Conditional Access web app: https://conditionalaccess.joeyverlinden.com/.
 * **Step 2**: Click **Deploy Conditional Access Baseline**.
