@@ -70,7 +70,7 @@ This conditional access baseline is based on the Microsoft Conditional Access Ba
   - [Considerations](#considerations)
   - [Troubleshooting](#troubleshooting)
   - [Importing the baseline](#importing-the-baseline)
-    - [Option 1 - ConditionalAccessBaseline Importer (Recommended)](#option-1---conditionalaccessbaseline-importer-recommended)
+    - [Option 1 - ConditionalAccessBaseline Importer](#option-1---conditionalaccessbaseline-importer)
     - [Option 2 - IntuneManagementTool](#option-2---intunemanagementtool)
       - [Setup IntuneManagement](#setup-intunemanagement)
       - [Import the configuration](#import-the-configuration)
@@ -487,7 +487,11 @@ Learn more: https://learn.microsoft.com/en-us/entra/identity/conditional-access/
 
 ## Importing the baseline
 
-### Option 1 - ConditionalAccessBaseline Importer (Recommended)
+### Option 1 - ConditionalAccessBaseline Importer
+
+
+> [!Note]
+> Please keep in mind that this is a web app. The tool is intended as a simple, one-time deployment method. After deploying the baseline, consider removing the Enterprise App from your tenant. If you prefer an offline deployment method, which is more time-consuming, choose option 2 instead.
 
 * **Step 1**: Open the Conditional Access web app: https://conditionalaccess.joeyverlinden.com/.
 * **Step 2**: Click **Deploy Conditional Access Baseline**.
